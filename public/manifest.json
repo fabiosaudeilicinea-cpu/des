@@ -1,0 +1,50 @@
+{
+  "id": "/",
+  "name": "TV IPTV Player",
+  "short_name": "IPTV TV",
+  "description": "Reprodutor de IPTV (Xtream Codes) otimizado para Smart TV e Android TV Box.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone", "minimal-ui"],
+  "orientation": "landscape",
+  "background_color": "#0b0f17",
+  "theme_color": "#0b0f17",
+  "categories": ["entertainment", "utilities"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/tv-banner-16x9.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/icons/tv-banner-16x9.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Tela principal do IPTV Player em modo TV"
+    }
+  ]
+}
